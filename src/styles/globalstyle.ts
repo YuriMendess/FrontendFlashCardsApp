@@ -13,6 +13,17 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #202020;
+        font-family: "Segoe UI", sans-serif;
+        color: #FFF;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+
+        &:hover {
+            color: #FFF;
+        }
     }
 `
 ;
